@@ -23,9 +23,35 @@
 }
 
 .item {
-  margin-bottom: spacing(3);
+  margin-bottom: spacing(1);
 
   &:last-child {
     margin-bottom: 0;
   }
+}
+
+.print-button {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 115px;
+  top: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  transition: all 0.4s ease 0s;
+  border: 1px solid $primary-color;
+  background: white;
+  cursor: pointer;
+}
+
+.print-button:hover {
+  background: $primary-color;
+  color: white;
+  transition: all 0.4s ease 0s;
 }
