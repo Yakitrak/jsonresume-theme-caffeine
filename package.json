@@ -2,7 +2,7 @@
   "author": "Kartikay Jainwal",
   "name": "jsonresume-theme-caffeine-tweaked",
   "description": "Caffeine theme for JSON Resume",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "keywords": [
     "json",
     "resume",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yakitrak/jsonresume-theme-caffeine"
+    "url": "https://github.com/Yakitrak/jsonresume-theme-caffeine-tweaked"
   },
   "license": "MIT",
   "scripts": {
